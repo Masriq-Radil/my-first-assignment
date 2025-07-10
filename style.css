@@ -91,7 +91,7 @@ h2{
     padding-top: 35px;
     padding-bottom: 55px;
     margin-left: 180px;
-    margin-right: 200px;
+    margin-right: 126px;
     border-radius: 20px;
 }
 .user-info-area h3{
@@ -144,4 +144,44 @@ h2{
 .user-comments:hover{
     transform: scale(1.2);
     transition: 1.2s;
+}
+.personal-info-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 350px;
+    margin-left: 150px;
+    margin-right: 105px;
+    margin-top: 130px;
+}
+.personal-info-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.label-tittle{
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.info-area{
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    padding: 8px 68px;
+}
+.btn-secondary{
+    background-color: #4E47FF;
+    padding: 10px 115px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.btn-secondary:hover{
+    background-color: black;
+}
+.info-area:hover{
+    background-color: lightgrey;
+}
+.personal-info-area h1{
+    font-size: 90px;
+    margin-top: 90px;
 }
