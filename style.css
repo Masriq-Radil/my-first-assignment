@@ -4,7 +4,7 @@ body{
   font-style: normal;
   margin: 0;
 }
-h3{
+.logo-tittle h3{
     color: #4E47FF;
     font-size: 20px;
 }
@@ -32,7 +32,7 @@ h3{
     font-weight: 600;
 }
 .btn-primary:hover{
-    background-color: black;
+    background-color: lightslategray;
     cursor: pointer;
 }
 .search-area{
@@ -59,4 +59,55 @@ h3{
     0px 0px 20px blue,
     0px 0px 40px blue,
     0px 0px 80px blue;
+}
+.action-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.action-area-description{
+    align-content: center;
+}
+h2{
+    font-size: 27px;
+}
+.action-area-description p{
+    color: grey;
+    font-size: 15px;
+    
+}
+.action-area-img img{
+    border-radius: 25px;
+    height: 95%;
+    width: 310px;
+}
+.action-area-img img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.user-info-area{
+    margin-top: 100px;
+    background-color: #bab9f3;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 180px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+.user-info-area h3{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.user-details{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.user-info{
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: 700;
+}
+.user-info p{
+    font-size: 15px;
 }
