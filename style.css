@@ -1,0 +1,62 @@
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+h3{
+    color: #4E47FF;
+    font-size: 20px;
+}
+.header-section{
+    background-image: url("Assets/Hero-bg.png");
+    max-height: 680px;
+    max-width: 100%;
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding-top: 30px;
+}
+.signup-area{
+    margin-top: 12px;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.search-area{
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    padding: 8px 15px;
+}
+.search-area:hover{
+    background-color: lightgray;
+}
+.head-tittle-area{
+    padding-left: 20px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+
+}
+.tittle-description{
+    text-align: center;
+    font-size: 40px;
+}
+.name-decoration{
+    color: white;
+    text-shadow: 0px 0px 10px blue,
+    0px 0px 20px blue,
+    0px 0px 40px blue,
+    0px 0px 80px blue;
+}
